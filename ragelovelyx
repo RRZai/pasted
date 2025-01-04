@@ -3050,7 +3050,6 @@ runs.RenderStepped:Connect(function(delta) --  fast
     if changerbool and localplayer.Character and localplayer.Character:FindFirstChild("Humanoid") and ACBYPASS_SYNC == true then
         localplayer.Character.Humanoid.WalkSpeed = changerspeed
         localplayer.Character.Humanoid.JumpHeight = changerjump
-        localplayer.Character.Humanoid.HipHeight = changerheight
         workspace.Gravity = changergrav
     end
 
