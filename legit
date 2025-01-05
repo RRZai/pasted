@@ -1,0 +1,1 @@
+game.ReplicatedStorage.Remotes.ProjectileInflict:FireServer(game.Players.LocalPlayer.Character.PrimaryPart, Vector3.new(-1, -1, -1), 7, tick())
